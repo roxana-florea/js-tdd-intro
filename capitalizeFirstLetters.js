@@ -4,10 +4,9 @@ const assert = require('assert');
 
 
 let capitalizeFirst = (word) => {
-    return word.length > 0 && (typeof word === 'string') 
+    return word.length > 0
     ? word.split(' ').map(item => item[0].toUpperCase() + item.slice(1)).join(' ') 
     : ''
-      
        }
   
 
